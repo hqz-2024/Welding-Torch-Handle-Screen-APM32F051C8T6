@@ -1,0 +1,139 @@
+# ============================================================
+# Keil MDK — 编译产物 & 用户特定文件
+# ============================================================
+
+# Keil 工程选项（用户特定，含断点/窗口布局等本地配置）
+*.uvguix.*
+*.uvoptx
+
+# Keil 编译中间文件
+*.o
+*.d
+*.crf
+*.dep
+
+# Keil 输出产物
+*.axf
+*.hex
+*.elf
+*.bin
+
+# Keil 输出的 Listings（反汇编/内存映射）
+*.lst
+*.map
+
+# Keil 输出目录
+**/Out/
+**/Listings/
+**/OBJ/
+
+# Keil 链接/构建中间产物
+*.build_log.htm
+*.lnp
+*.sct
+*.Bak
+*.iex
+
+# RTE 运行时环境（自动生成）
+RTE/
+
+# J-Link 调试器本地配置
+JLinkSettings.ini
+
+# Event Recorder stub（Keil 调试组件）
+EventRecorderStub.scvd
+
+# Keil DFP 安装包（SDK 已有解压源码，无需上传包）
+*.pack
+
+# ============================================================
+# IAR EWARM — 编译产物
+# ============================================================
+
+# IAR 工程文件（自动生成，无需版本控制）
+*.ewp
+*.eww
+
+# IAR 输出目录
+**/Debug/
+**/Release/
+
+# IAR 编译中间文件
+*.pbi
+*.xcl
+
+# IAR 输出产物
+*.out
+*.sim
+
+# ============================================================
+# Eclipse CDT / GCC ARM Embedded — 编译产物
+# ============================================================
+
+# Eclipse 输出目录
+**/Debug/
+**/Release/
+
+# GCC 编译产物
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# ============================================================
+# 通用 IDE / 编辑器
+# ============================================================
+
+# Visual Studio Code
+.vscode/
+
+# ============================================================
+# 操作系统生成文件
+# ============================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ============================================================
+# 杂项
+# ============================================================
+
+# 日志文件
+*.log
+seeed-cli/
+.claude/
+03-KAC-京东方-0.96IPS显示屏STM32F103RC_SPI例程/
+CLAUDE.md
+apm32f051c8t6_io_usage.md
+apm32f051c8t6.pdf
+BTC550DP Ultra东莞宝宇森设备端通讯协议02版 .docx
+Inter-Italic-VariableFont_opsz,wght.ttf
+Inter-VariableFont_opsz,wght.ttf
+
+# 二进制可执行文件
+*.exe
+
+# 字体文件
+*.ttf
+*.woff
+*.woff2
+*.otf
+
+# SDK 文档（大体积二进制，无需版本控制）
+Documents/
+*.chm
+*.pdf
